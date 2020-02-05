@@ -11,10 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('user.pages.home');
-});
-
+Route::get('/','HomeController@getHomePage')->name('home');
+Route::get('/package','HomeController@getPackagePage')->name('package');
 Route::get('/admin', function () {
     return view('admin.dashboard');
 });
+
+

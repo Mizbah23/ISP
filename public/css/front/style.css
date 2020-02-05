@@ -226,7 +226,7 @@ li > a:only-child:after { content: ''; }
 		text-decoration: none;
 		border: none;
 		float: right;
-		background-color: #5341b4;
+		background-color: #b03919;
 		color: #fff;
 		margin-top: 20px;
 	}
@@ -247,7 +247,7 @@ li > a:only-child:after { content: ''; }
 		font-size: 15px;
 	}
 	.menu li.active a {
-		color: #5341b4;
+		color: #b03919;
 	}
 	.toggle:hover {
 		color:#333;
@@ -283,7 +283,7 @@ li > a:only-child:after { content: ''; }
 		background-color: #transparent;
 	}
 	nav a:hover {
-		color: #5341b4;
+		color: #b03919;
 	}
 	nav ul li ul li .toggle,
 	nav ul ul a,
@@ -403,7 +403,7 @@ li > a:only-child:after { content: ''; }
 }
 .w3pvt_banner_info a:hover {
     background: #fff;
-	color: #5341b4;
+	color: #b03919;
 }
 /*-- // banner --*/
 
@@ -449,7 +449,7 @@ h3.heading {
     color: #222;
 }
 .about-middle {
-    background: #5341b4;
+    background: #b03919;
     padding: 5em 4em;
     border-radius: 69% 31% 24% 76% / 53% 59% 41% 47%;
 }
@@ -483,13 +483,13 @@ h4.heading {
 }
 .about-middle a:hover {
     background: #fff;
-    color: #5341b4;
+    color: #b03919;
 }
 /*-- //about --*/
 
 /*-- events --*/
 .events{
-	background: #5341b4;
+	background: #b03919;
 }
 .events h3.heading{
 	color: #fff;
@@ -526,7 +526,7 @@ ul.event-names li h3 {
 }
 ul.event-names li  a {
     background: #fff;
-    color: #5341b4;
+    color: #b03919;
     padding: 10px 30px;
     display: inline-block;
     font-weight: 500;
@@ -554,7 +554,7 @@ ul.event-names li  a {
 }
 .event-grids a:hover {
     background: #fff;
-    color: #5341b4;
+    color: #b03919;
 }
 /*-- //events --*/
 
@@ -668,8 +668,8 @@ ul.event-names li  a {
     box-sizing: border-box;
     cursor: pointer;
     color: #fff;
-    background: #5341b4;
-    border: 1px solid #5341b4;
+    background: #b03919;
+    border: 1px solid #b03919;
     padding: 15px 20px;
     border: none;
     width: 30%;
@@ -898,7 +898,7 @@ ul.event-names li  a {
 .box20:before {
     width: 85%;
     height: 220%;
-    background: #5341b4;
+    background: #b03919;
     top: -68%;
     left: -100%;
     z-index: 1;
@@ -979,7 +979,7 @@ ul.event-names li  a {
     background: #fff;
     border-radius: 50%;
     margin: 0 3px;
-    color: #5341b4;
+    color: #b03919;
     text-align: center;
     transition: all .5s ease 0s
 }
@@ -1046,7 +1046,7 @@ form.register-wthree .form-control {
 }
 
 button.btn.btn-w3layouts {
-    background: #5341b4;
+    background: #b03919;
     color: #fff;
     padding: 10px 30px;
     display: inline-block;
@@ -1066,7 +1066,7 @@ button.btn.btn-w3layouts {
     margin-bottom: 10px;
 }
 .address h4 span.fa{
-    color: #5341b4;
+    color: #b03919;
 }
 .address p a{
     margin: 0;
@@ -1083,7 +1083,7 @@ button.btn.btn-w3layouts {
 
 /*-- register --*/
 .register{
-    background: #5341b4 url(/images/ballons.png) no-repeat;
+    background: #b03919 url(/images/ballons.png) no-repeat;
 	background-position: 0% 100%;
 	background-size: contain;
 }
@@ -1102,7 +1102,7 @@ button.btn.btn-w3layouts {
 .register a:hover{
     background: #fff;
     border: 2px solid #fff;
-    color: #5341b4;
+    color: #b03919;
 }
 .register h3 {
     font-size: 30px;
@@ -1116,7 +1116,7 @@ button.btn.btn-w3layouts {
 
 /*-- sponsers --*/
 .sponsers{
-	background: #5341b4;
+	background: #b03919;
 }
 .sponsers h3.heading {
 	color: #fff;
@@ -1276,7 +1276,7 @@ a.move-top.text-center span {
 		margin: auto;
 	}
 	.subscribe {
-		background: #222 url(/images/celebration.jpg) no-repeat;
+		background: #222 url(/images/ballons1.png) no-repeat;
 		background-position: 170% 100%;
 		background-size: contain;
 	}

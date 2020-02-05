@@ -1,14 +1,9 @@
-<!--
-	Author: W3layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
--->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <link rel="icon" type="image/ico" href="images/favicon.jpg">
-<title>greetings</title>
+<title>@yield('title')</title>
 
 	<!-- Meta tag Keywords -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,6 +20,7 @@
 			window.scrollTo(0, 1);
 		}
 	</script> 
+    
 	<!--// Meta tag Keywords -->
     
 	<!-- css files -->
@@ -80,7 +76,7 @@
 	<div class="container py-md-5">
 		<div class="row about-grids">
 			<div class="col-lg-6">
-				<h3 class="heading mb-4">About New Years Eve Greetings</h3>
+				<h3 class="heading mb-4">About A1 Network</h3>
 				<p>Integer pulvinar leo id viverra feuetgiat. Dolor Pellentesque libero sed justo, semper at tempus vel, ultrices in ligula. Nulla
 					sollicit udin velit et. semper at tempus vel, ultrices in ligula leo sed viverra feugiat Nulla sollicit udin velit semper at  sed viverra sed viverra.</p>
 				<p class="mt-2">Integer pulvinar leo id viverra feuetgiat. Dolor Pellentesque libero ut justo, semper at tempus vel, ultrices in ligula ipsum semper at tempus vel, ultrices in ligula leo sed viverra sed feugiat Nulla sollicit udin.</p>
@@ -198,7 +194,7 @@
 <!-- team  -->
 <section class="pb-5 py-4 team-agile position-relative" id="team">
 	<div class="container py-lg-5">
-		<h3 class="heading">Party Organizers</h3>
+		<center><h3 class="heading">Party Organizers</h3></center>
 		<div class="d-flex team-agile-row pt-sm-5 pt-3">
 			<div class="col-lg-3 col-sm-6 w3pvt-team">
 				<div class="box20">
@@ -316,6 +312,9 @@
 					<div class="address wthree-location">
 						<h4><span class="fa fa-map-marker"></span> Address</h4>
 						<p>71 Pilgrim Avenue 44 Shirley Ave. Goldfield Rd. Broome St, Newyork.</p>
+						<p></p><br>
+						<p></p>
+						<p></p>
 					</div>
 					<div class="address my-4 wthree-phone">
 						<h4><span class="fa fa-phone"></span> Phone</h4>
@@ -392,6 +391,12 @@
     <!-- //contact -->
 
 <!-- our sponsers -->
+<section id="sponsers">
+
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.9417792278714!2d90.38440171498135!3d23.749455484589745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8bb252fa6b3%3A0x56689e586447d6fc!2sA1+Online!5e0!3m2!1sen!2sbd!4v1546940357941" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+</section>
+<!-- //our sponsors -->
 @include('user.layout.footer')
 <!-- //subscribe -->
 
