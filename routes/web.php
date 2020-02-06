@@ -13,8 +13,17 @@
 
 Route::get('/','HomeController@getHomePage')->name('home');
 Route::get('/package','HomeController@getPackagePage')->name('package');
-Route::get('/admin', function () {
-    return view('admin.dashboard');
-});
 
 
+
+
+Auth::routes();
+Route::get('/login','Auth\LoginController@showLoginForm')->name('login');
+Route::post('/login','Auth\LoginController@login');
+
+Route::get('/logout','Auth\LoginController@logout')->name('logout');
+
+Route::get('/admin', 'AdminController@index')->name('admin.dashboard');
+
+Route::get('/admin/about', 'SectionController@showAbout')->name('admin.about');
+Route::post('/admin/about', 'SectionController@postAbout');
