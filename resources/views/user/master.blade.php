@@ -20,6 +20,26 @@
 			window.scrollTo(0, 1);
 		}
 	</script> 
+
+<script>
+	$('.owl-carousel').owlCarousel({
+		margin: 10,
+		nav: true,
+		navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
+		responsive: {
+			0: {
+				items: 1
+			},
+			600: {
+				items: 3
+			},
+			1000: {
+				items: 3
+			}
+		}
+	});
+</script>
+	
     
 	<!--// Meta tag Keywords -->
     
@@ -27,6 +47,10 @@
 	<link rel="stylesheet" href="css/front/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
 	<link rel="stylesheet" href="css/front/style.css" type="text/css" media="all" /> <!-- Style-CSS --> 
 	<link rel="stylesheet" href="css/front/font-awesome.min.css"> <!-- Font-Awesome-Icons-CSS -->
+	<link rel="stylesheet" href="font-awesome/css/flaticon.css"> <!-- Flat Icons-CSS -->
+	<link rel="stylesheet" href="font-awesome/css/owl.carousel.min.css"> <!-- Owl Carousel-CSS -->
+	<link rel="stylesheet" href="font-awesome/css/owl.theme.default.min.css"> <!-- Owl Carousel-CSS -->
+
 	<!-- //css files -->
 	
 	<!--web font-->
@@ -45,5 +69,9 @@
 @include('user.layout.footer')
 <!-- //subscribe -->
 
+<script src="js/front/jquery.min.js"></script>
+<script src="js/front/owl.carousel.js"></script>
+
+@yield('script')
 </body>
 </html>

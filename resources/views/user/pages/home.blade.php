@@ -143,7 +143,76 @@
 	</div>
 </section>
 <!-- //what we do -->
+	<!-- pricing table section start -->
+	
+	<section class="pricing-section">
+		<div class="carousel-wrap">
+		<div class="owl-carousel owl-theme">
+		<div class="container">
+			<center><h3 class="heading">Our Price</h3></center>
+		</div>
 
+		<div class="container container-small">
+			<div class="row">
+				<div class="col-md-6 col-lg-4">
+					<div class="pricing-item style2">
+						<div class="pricing-icon">
+							<span class="flaticon-profile"></span>
+						</div>
+						<h5 class="name">Started Plan</h5>
+						<p class="desc">Unique technology</p>
+						<p class="price-amount"><span>$</span>19.00</p>
+						<ul class="price-details-list">
+							<li><i class="fa fa-check"></i>Free <span>Custom Domain</span></li>
+							<li><i class="fa fa-check"></i>Create <span>Outding Support</span></li>
+							<li><i class="fa fa-check"></i>Free <span>Best Hosting</span></li>
+							<li><i class="fa fa-check"></i>Join <span>Happy Customers</span></li>
+						</ul>
+						<a href="#" class="price-link">Get Started Now</a>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-4">
+					<div class="pricing-item style2">
+						<div class="pricing-icon">
+							<span class="flaticon-new"></span>
+						</div>
+						<h5 class="name">Business Plan</h5>
+						<p class="desc">Unique technology</p>
+						<p class="price-amount"><span>$</span>29.00</p>
+						<ul class="price-details-list">
+							<li><i class="fa fa-check"></i>Free <span>Custom Domain</span></li>
+							<li><i class="fa fa-check"></i>Create <span>Outding Support</span></li>
+							<li><i class="fa fa-check"></i>Free <span>Best Hosting</span></li>
+							<li><i class="fa fa-check"></i>Join <span>Happy Customers</span></li>
+						</ul>
+						<a href="#" class="price-link">Get Started Now</a>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-4">
+					<div class="pricing-item style2">
+						<div class="pricing-icon">
+							<span class="flaticon-menu"></span>
+						</div>
+						<h5 class="name">Enterprise Plan</h5>
+						<p class="desc">Unique technology</p>
+						<p class="price-amount"><span>$</span>36.00</p>
+						<ul class="price-details-list">
+							<li><i class="fa fa-check"></i>Free <span>Custom Domain</span></li>
+							<li><i class="fa fa-check"></i>Create <span>Outding Support</span></li>
+							<li><i class="fa fa-check"></i>Free <span>Best Hosting</span></li>
+							<li><i class="fa fa-check"></i>Join <span>Happy Customers</span></li>
+						</ul>
+						<a href="#" class="price-link">Get Started Now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		</div>
+	</section>
+	<!-- pricing table section end -->
 
 <!-- fireworks animation -->
 <div class="pyro">

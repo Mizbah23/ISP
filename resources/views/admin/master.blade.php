@@ -64,6 +64,16 @@
 <script src="{{asset('js/back/icheck.min.js')}}"></script>
 <script src="{{asset('js/back/ckeditor.js')}}"></script>
 
+<script>
+     $(function () {
+       // Replace the <textarea id="editor1"> with a CKEditor
+       // instance, using default configuration.
+       CKEDITOR.replace('editor1')
+       //bootstrap WYSIHTML5 - text editor
+       $('.textarea').wysihtml5()
+     })
+</script>
+
 @yield('script')
 </body>
 </html>

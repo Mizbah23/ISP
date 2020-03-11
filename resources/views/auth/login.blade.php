@@ -25,7 +25,7 @@
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
               @if(session('errors'))
                 <div>
-                  <span style="color: red">{{$errors}}</span>
+                  <span style="color: red">*{{$errors}}</span>
                 </div>
               @endif
       </div>

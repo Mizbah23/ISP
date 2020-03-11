@@ -26,7 +26,7 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
-        <li class="active treeview menu-open">
+        <li class=" treeview menu-open">
           <a href="#">
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
             <span class="pull-right-container">
@@ -35,7 +35,7 @@
           </a>
           <ul class="treeview-menu">
             {{-- <li><a href="index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li> --}}
-            <li class="active"><a href="{{route('admin.dashboard')}}"><i class="fa fa-circle-o"></i> Dashboard</a></li>
+            <li><a href="{{route('admin.dashboard')}}"><i class="fa fa-circle-o"></i> Dashboard</a></li>
           </ul>
         </li>
         
@@ -78,7 +78,7 @@
           </ul>
         </li>
 
-{{--         <li>
+{{--    <li>
           <a href="pages/mailbox/mailbox.html">
             <i class="fa fa-envelope"></i> <span>Mailbox</span>
             <span class="pull-right-container">

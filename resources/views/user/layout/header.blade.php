@@ -3,7 +3,7 @@
 		<!-- nav -->
 		<nav class="py-md-4">
         <div id="logo">
-			<h1> <a href="#index.html"><span class="fa fa-glass" aria-hidden="true"></span> Greetings <span class="block">New Year's Eve</span></a></h1>
+			<h1> <a href="#index.html"><span class="fa fa-glass" aria-hidden="true"></span> A1 <span class="block">Network</span></a></h1>
 		</div>
 
         <label for="drop" class="toggle"><span class="fa fa-bars"></span></label>

@@ -1407,3 +1407,132 @@ a.move-top.text-center span {
 @media(max-width:384px) {
 	
 }
+
+
+.pricing-section {
+    background-color: #f5f5f5;
+    padding-top: 120px;
+    padding-bottom: 120px; }
+  
+  .pricing-item {
+    text-align: center;
+    padding: 35px 25px;
+    background-color: #fff;
+    margin-bottom: 30px; }
+    @media (min-width: 992px) {
+      .pricing-item {
+        margin-bottom: 0; } }
+    .pricing-item .pricing-icon {
+      margin-bottom: 5px; }
+      .pricing-item .pricing-icon span {
+        color: #504ce5; }
+        .pricing-item .pricing-icon span:before {
+          font-size: 42px;
+          margin-left: 0; }
+    .pricing-item .name {
+      font-size: 20px;
+      margin-bottom: 0px;
+      margin-top: 0; }
+    .pricing-item .price-amount {
+      font-size: 40px;
+      color: #2e3d62;
+      position: relative;
+      display: inline-block;
+      margin-bottom: 0px; }
+      .pricing-item .price-amount span {
+        font-size: 16px;
+        position: absolute;
+        left: -12px;
+        top: 11px; }
+    .pricing-item .desc {
+      font-size: 12px;
+      color: #89898b;
+      margin-bottom: 20px;
+      line-height: 2; }
+    .pricing-item .price-link {
+      color: #504ce5;
+      width: 100%;
+      text-align: center;
+      border: 1px solid #afb5c3;
+      padding: 14px 30px;
+      display: block;
+      margin-bottom: 20px;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      transition: 0.3s; }
+      .pricing-item .price-link:hover {
+        background-color: #ed1c24;
+        color: #fff;
+        border-color: #ed1c24; }
+    .pricing-item .price-details-list {
+      margin: 0;
+      padding-left: 0px;
+      text-align: center;
+      list-style-type: none; }
+      @media (min-width: 768px) {
+        .pricing-item .price-details-list {
+          text-align: left; } }
+      .pricing-item .price-details-list li {
+        line-height: 2.5; }
+        .pricing-item .price-details-list li i, .pricing-item .price-details-list li svg {
+          font-size: 7px;
+          margin-right: 5px;
+          color: #2e3d62; }
+        .pricing-item .price-details-list li span {
+          font-weight: 600;
+          color: #2e3d62; }
+    .pricing-item:hover .price-link {
+      background-color: #ed1c24;
+      color: #fff;
+      border-color: #ed1c24; }
+    .pricing-item:hover .pricing-icon span {
+      color: #ed1c24; }
+    .pricing-item.base-color2 .pricing-icon span {
+      color: #e7bf02; }
+    .pricing-item.base-color2:hover .price-link {
+      background-color: #e7bf02;
+      color: #fff;
+      border-color: #e7bf02; }
+    .pricing-item.base-color2:hover .pricing-icon span {
+      color: #e7bf02; }
+    .pricing-item.style2 .name {
+      margin-bottom: 5px; }
+    .pricing-item.style2 .desc {
+      margin-bottom: 0px; }
+    .pricing-item.style2 .price-amount {
+      margin-bottom: 0px;
+      color: #504ce5;
+      font-weight: 600;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      transition: 0.3s; }
+    .pricing-item.style2 .price-details-list {
+      padding-left: 30px;
+      margin-bottom: 30px; }
+      .pricing-item.style2 .price-details-list li i {
+        font-size: 12px;
+        margin-right: 5px; }
+    .pricing-item.style2 .price-link {
+      width: auto;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 700;
+      background-color: #2e3d62;
+      border: none;
+      color: #fff;
+      border-radius: 3px;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      transition: 0.3s; }
+    .pricing-item.style2:hover {
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1); }
+      .pricing-item.style2:hover .price-amount {
+        color: #dbb606; }
+      .pricing-item.style2:hover .price-link {
+        background-color: #dbb606; }
+      .pricing-item.style2:hover .pricing-icon span {
+        color: #2e3d62; }
