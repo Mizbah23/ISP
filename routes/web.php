@@ -25,5 +25,5 @@ Route::get('/logout','Auth\LoginController@logout')->name('logout');
 
 Route::get('/admin', 'AdminController@index')->name('admin.dashboard');
 
-Route::get('/admin/about', 'SectionController@showAbout')->name('admin.about');
-Route::post('/admin/about', 'SectionController@postAbout');
+Route::get('/admin/about/{id}', 'SectionController@showAbout')->name('admin.about');
+Route::post('/admin/about/{id}', 'SectionController@postAbout')->name('abtpost');

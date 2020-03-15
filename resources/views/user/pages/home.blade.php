@@ -35,13 +35,13 @@
 <!-- about -->
 <section class="about py-5" id="about">
 	<div class="container py-md-5">
+		
 		<div class="row about-grids">
 			<div class="col-lg-6">
+				@foreach($abouts as $about)
 				<h3 class="heading mb-4">About A1 Network</h3>
-				<p>Integer pulvinar leo id viverra feuetgiat. Dolor Pellentesque libero sed justo, semper at tempus vel, ultrices in ligula. Nulla
-					sollicit udin velit et. semper at tempus vel, ultrices in ligula leo sed viverra feugiat Nulla sollicit udin velit semper at  sed viverra sed viverra.</p>
-				<p class="mt-2">Integer pulvinar leo id viverra feuetgiat. Dolor Pellentesque libero ut justo, semper at tempus vel, ultrices in ligula ipsum semper at tempus vel, ultrices in ligula leo sed viverra sed feugiat Nulla sollicit udin.</p>
-				
+				<p>{!! $about->details !!}</p>
+				@endforeach
 			</div>
 			<div class="col-lg-5 col-md-8 mt-lg-0 mt-4 offset-lg-1 text-center about-middle">
 				<h5>New Years Eve</h5>
@@ -50,6 +50,7 @@
 				<a href="#contact">Buy Ticket</a>
 			</div>
 		</div>
+		
 	</div>
 </section>
 <!-- about -->

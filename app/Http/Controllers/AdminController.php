@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\About;
 
 class AdminController extends Controller
 {
@@ -25,6 +26,7 @@ class AdminController extends Controller
     {
         $data=array();       
         $data['title']='Admin|Dashboard'; 
+        $data['about']=About::all();
         return view('admin.dashboard',$data);
     }
 }

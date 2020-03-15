@@ -3,7 +3,7 @@
 		<!-- nav -->
 		<nav class="py-md-4">
         <div id="logo">
-			<h1> <a href="#index.html"><span class="fa fa-glass" aria-hidden="true"></span> A1 <span class="block">Network</span></a></h1>
+			<h1> <a href="#index.html"><span> <img style="height: 50px; width: 50px;" src="images/logo.jpg" alt=""></span> A1 Network</a></h1>
 		</div>
 
         <label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
@@ -11,19 +11,6 @@
         <div id="navbar">
             <ul class="menu mt-md-3">
                 <li class="mr-lg-4 mr-3 active"><a href="{{route('home')}}">Home</a></li>
-{{--                 <li class="mr-lg-4 mr-3">
-                First Tier Drop Down 
-                <label for="drop-2" class="toggle">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
-                <a href="#">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span></a>
-                <input type="checkbox" id="drop-2"/>
-                <ul class="drop-down">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#events">Events</a></li>
-                    <li><a href="#team">Organizers</a></li>
-                    <li><a href="#sponsers">Sponsers</a></li>
-                    <li><a href="#subscribe">Subscribe</a></li>
-                </ul>
-                </li> --}}
                 <li class="mr-lg-4 mr-3"><a href="{{route('package')}}">Package</a></li>
                 <li class="mr-lg-4 mr-3"><a href="#contact">Product</a></li>
                 <li class="mr-lg-4 mr-3">

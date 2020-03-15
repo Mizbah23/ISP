@@ -62,7 +62,8 @@
 <!-- AdminLTE for demo purposes -->
 <script src="{{asset('js/back/demo.js')}}"></script>
 <script src="{{asset('js/back/icheck.min.js')}}"></script>
-<script src="{{asset('js/back/ckeditor.js')}}"></script>
+<script src="{{asset('js/back/ckeditor/ckeditor.js')}}"></script>
+<script src="{{asset('js/back/bootstrap3-wysihtml5.all.min.js')}}"></script>
 
 <script>
      $(function () {

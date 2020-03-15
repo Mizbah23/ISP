@@ -49,7 +49,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="{{route('admin.about')}}"><i class="fa fa-circle-o"></i>About</a></li>
+            <li><a href="{{route('admin.about',[1])}}"><i class="fa fa-circle-o"></i>About</a></li>
           </ul>
         </li>
         <li class="treeview">

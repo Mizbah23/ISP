@@ -1,5 +1,10 @@
 @extends('admin.master')
 @section('title'){{$title}}@stop
+@section('style')
+  <link rel="stylesheet" href="{{asset('css/back/bootstrap3-wysihtml5.min.css')}}">
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+@stop
 @section('content')
   <header class="main-header">
 
@@ -20,8 +25,8 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Text Editors
-        <small>Advanced form element</small>
+        About
+        
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -36,8 +41,8 @@
         <div class="col-md-12">
           <div class="box box-info">
             <div class="box-header">
-              <h3 class="box-title">CK Editor
-                <small>Advanced and full of features</small>
+              <h3 class="box-title">About Editor
+                <small>Edit about section of your website</small>
               </h3>
               <!-- tools box -->
               <div class="pull-right box-tools">
@@ -52,12 +57,22 @@
             </div>
             <!-- /.box-header -->
             <div class="box-body pad">
-              <form>
-                    <textarea id="editor1" name="editor1" rows="10" cols="80">
-                                            This is my textarea to be replaced with CKEditor.
+              <form method="post">
+                @csrf
+                    <textarea id="editor1" name="details" rows="10" cols="80">
+                                  {{old('details',$about->details)}}          
                     </textarea>
+                    <br>
+                  <button type="submit" class="btn btn-info">Update </button> 
+                  <button type="reset" class="btn btn-danger">Cancel</button>
               </form>
             </div>
+             
+
+             
+
+                         
+
           </div>
 
         </div>
@@ -890,4 +905,4 @@
   })
 </script>
 </body>
-</html> --}}
+</html>  --}}
