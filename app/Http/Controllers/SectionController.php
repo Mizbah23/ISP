@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\About;
+use App\Section;
 
 class SectionController extends Controller
 {
@@ -24,7 +25,39 @@ class SectionController extends Controller
          $about->details=$request->details;
          $about->save();
          // dd($about);
-         session()->flash('success', 'Successfully Saved!');
+         session()->flash('success', 'Successfully Updated!');
          return redirect()->route('admin.about',[1]);
     }
+
+    public function addService(){
+        $data=array();
+        $data['title']='Add|Service';
+        return view('admin.addservice',$data);
+    }
+
+    public function postService(Request $request){
+        // dd($request->all());
+            $this->validate($request,[
+            'shead'=>'required',
+            'details' => 'required'
+           
+        ]);
+
+         $section=new Section;
+         $section->shead=$request->shead;
+         $section->details=$request->details;
+         $section->save();
+         // dd($about);
+         session()->flash('success', 'Successfully Updated!');
+         return redirect()->route('admin.addservice');
+    }
+
+
+    public function viewService(){
+        $data=array();
+        $data['title']='Show|Service';
+        $data['sections']=Section::all();
+        return view('admin.viewservice',$data);
+    }
+
 }

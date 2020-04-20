@@ -45,9 +45,9 @@
 			</div>
 			<div class="col-lg-5 col-md-8 mt-lg-0 mt-4 offset-lg-1 text-center about-middle">
 				<h5>New Years Eve</h5>
-				<h4 class="heading mb-3">Tickets on sale now</h4>
+				<h4 class="heading mb-3">Choose our Package</h4>
 				<p class="">Integer pulvinar leo id viverra feuetgiat. Dolor Pellentesque libero ut justo at.</p>
-				<a href="#contact">Buy Ticket</a>
+				<a href="#pricing">Buy Package</a>
 			</div>
 		</div>
 		
@@ -67,7 +67,7 @@
 	<div class="container py-md-5">
 		<div class="row event-grids">
 			<div class="col-lg-5">
-				<h3 class="heading mb-4">Upcoming Events</h3>
+				<h3 class="heading mb-4">Services</h3>
 				<ul class="event-names mt-5">
 					<li class="d-flex"><h3 class="mr-3">07 Jan</h3> Event 1 Party Night </li>
 					<li class="para">Integer pulvinar leo id viverra feuetgiat. Dolor libero ut justo, semper at tempus vel, ultrices in ligula.</li>
@@ -146,13 +146,13 @@
 <!-- //what we do -->
 	<!-- pricing table section start -->
 	
-	<section class="pricing-section">
+	<section class="pricing-section" id="pricing">
 		<div class="carousel-wrap">
 		<div class="owl-carousel owl-theme">
 		<div class="container">
 			<center><h3 class="heading">Our Price</h3></center>
 		</div>
-
+        <br>
 		<div class="container container-small">
 			<div class="row">
 				<div class="col-md-6 col-lg-4">

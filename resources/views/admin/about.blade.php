@@ -9,7 +9,7 @@
   <header class="main-header">
 
     <!-- Logo -->
-    <a href="index2.html" class="logo">
+    <a href="{{route('home')}}" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>A</b>1</span>
       <!-- logo for regular state and mobile devices -->
@@ -56,6 +56,11 @@
               <!-- /. tools -->
             </div>
             <!-- /.box-header -->
+                @if (session('success'))
+                    <div class="alert alert-success">
+                    {{ session('success') }}
+                    </div>
+                @endif
             <div class="box-body pad">
               <form method="post">
                 @csrf

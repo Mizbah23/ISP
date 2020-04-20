@@ -3,7 +3,7 @@
 		<!-- nav -->
 		<nav class="py-md-4">
         <div id="logo">
-			<h1> <a href="#index.html"><span> <img style="height: 50px; width: 50px;" src="images/logo.jpg" alt=""></span> A1 Network</a></h1>
+			<h1> <a href="{{route('home')}}"><span> <img style="height: 50px; width: 50px;" src="images/logo.jpg" alt=""></span> A1 Network</a></h1>
 		</div>
 
         <label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
